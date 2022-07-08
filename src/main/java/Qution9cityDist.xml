@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	
+	<context:annotation-config />
+
+	<bean id="citybean1"
+		class="yash.SpringCore.Qution9.CityDistance">
+		<property name="fromcity" value="Erandol"></property>
+		<property name="tocity" value="pune"></property>
+		<property name="distance" value="400"></property>
+	</bean>
+
+	<bean id="citybean2"
+		class="yash.SpringCore.Qution9.CityDistance">
+		<property name="fromcity" value="jalgaon"></property>
+		<property name="tocity" value="nagpur"></property>
+		<property name="distance" value="783"></property>
+	</bean>
+
+	<bean id="citybean3"
+		class="yash.SpringCore.Qution9.CityDistance">
+		<property name="fromcity" value="surat"></property>
+		<property name="tocity" value="ahemdabad"></property>
+		<property name="distance" value="290"></property>
+	</bean>
+
+	<bean id="citybean4"
+		class="yash.SpringCore.Qution9.CityDistance">
+		<property name="fromcity" value="kashmir"></property>
+		<property name="tocity" value="kanyakumari"></property>
+		<property name="distance" value="3676"></property>
+	</bean>
+
+
+</beans>
